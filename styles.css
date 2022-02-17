@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Poppins:wght@300;400&family=Roboto+Slab&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: var(--primary-color);
+}
+
+:root{
+    --primary-color: #1a406b;
+    --dark-primary-color:#19375a;
+    --bg-color: #dddddd;
+    --white-color : #fff;
+    --lite-bg-color: #8dc0fa; 
+    --pink-color: #BD5D78;
+    --extra-orange-color: #EF836D;
+    --complimentary-blue-color: #1AB3B3;
+    --teal: #008080;
+    --dark-blue-color: #333258;
+    --danger-color: red;
+    --dark-danger-color:#d42f2f;
+    --span-bg-color : #b3d2f5;
+    --hover-color : #b3d2f5;
+    --label-color: #E67A00;
+    --outline-color : #00b594;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    height: 4rem;
+    box-shadow: 0 1px 10px 0 rgba(0,0,0,0.2);
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    width: 100%;
+    z-index: 2;
+    position: fixed;
+}
+
+.nav .logo{
+    margin-left: 10rem;
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--white-color);
+}
+
+.nav .links{
+    display: flex;
+    margin-left: 3rem;
+    gap: 45rem;
+    font-size: 1.3rem;
+}
+
+.nav .links a{
+    text-decoration: none;
+    color: var(--white-color);
+}
+
+.home-page-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10rem;
+}
+
+.home-page{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+
+    gap: 6.4rem;
+    gap: 6.2rem;
+
+    height: 100vh;
+}
+
+.home-page img{
+    height: 22rem;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.content h2{
+    font-size: 3rem;
+    color: var(--primary-color);
+}
+
+.content p {
+    font-size: 1.2rem;
+}
+
+.content a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.5rem;
+    width: fit-content;
+    padding: 1rem;
+    text-decoration: none;
+    border: 2px solid var(--primary-color);
+    border-radius: .6rem;
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+.content a:hover{
+    background-color: #112c4b; 
+}
+
+/* component page */
+
+.components-container{
+    display: grid;
+    grid-template-columns: .3fr 1fr;
+    grid-template-areas: 'sideBar components';
+    padding: 0rem 10rem;
+    gap: 13rem;
+}
+
+.sideBar{
+    grid-area: sideBar;
+    display: flex;
+    flex-direction: column;
+    gap: .6rem;
+    margin-top: 3rem;
+    position: fixed;
+    top: 4rem;
+    font-size: 1.2rem;
+}
+
+.sideBar div{
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.sideBar a{
+    text-decoration: none;
+    color: var(--primary-color);
+    padding-left: .6rem;
+    border-radius: .4rem;
+    height: max-content;
+}
+
+.sideBar a:hover{
+    background-color: var(--hover-color);
+    font-weight: 600;
+}
+
+.sideBar a:active{
+    font-weight: 600;
+}
+
+.components{
+    grid-area: components;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+h1{
+    color: var(--primary-color);
+    font-size: 2rem;
+}
+
+.section{
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    scroll-behavior: smooth;
+    min-height: 80vh;
+}
+
+.nextPageLink{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.section h1{
+    font-size: 2rem;
+    color: var(--primary-color);
+}
+
+.section h2{
+    font-size: 1.7rem;
+}
+
+.section-para{
+    margin: 1rem 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 10px;
+
+}
+
+.section p span{
+    background-color: var(--span-bg-color);
+    border-radius: 5px;
+    padding: 0.1rem;
+}
