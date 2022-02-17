@@ -1,0 +1,62 @@
+@import url('../styles.css');
+
+.headings-container ,.content-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid var(--primary-color);
+    padding: 2rem 10rem;
+    margin: 1rem 0;
+    border-radius: 10px;
+    gap: 1rem;
+}
+
+.headings-container .heading{
+    font-size: 2rem;
+    color: black;
+}
+
+.pragraph-container{
+    border: 2px solid var(--primary-color);
+    padding: 2rem 2rem;
+    margin: 1rem 0;
+    border-radius: 10px;
+    gap: 1rem;
+}
+
+.text-left{
+    text-align: start;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: end;
+}
+
+.text-heading-iframe{
+    width: 327px;
+    height: 298px; 
+    border:0; 
+    transform: scale(1); 
+    overflow:hidden;
+}
+
+.small-text-iframe{
+    width: 344px;
+    height: 223px; 
+    border:0; 
+    transform: scale(1); 
+    overflow:hidden;
+}
+
+.text-align-iframe{
+    width: 614px;
+    height: 242px; 
+    border:0; 
+    transform: scale(1); 
+    overflow:hidden;
+}
