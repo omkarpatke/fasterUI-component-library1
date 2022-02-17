@@ -64,7 +64,7 @@ Live Hosted Link - [FasterUI](https://fasterui.netlify.app)
 
 
 ## Screenshots
-![]() <br /><br />
-![]() <br /><br />
-![]() <br /><br />
+![](https://raw.githubusercontent.com/omkarpatke/fasterUI-component-library1/5a158018d57cf9c1d87da9f9580f1d5f92d53c6c/images/fasterUI-homePage.png) <br /><br /><br /><br />
+![](https://raw.githubusercontent.com/omkarpatke/fasterUI-component-library1/5a158018d57cf9c1d87da9f9580f1d5f92d53c6c/images/fasterUI-AvatarPage.png) <br /><br /><br /><br />
+![](https://raw.githubusercontent.com/omkarpatke/fasterUI-component-library1/5a158018d57cf9c1d87da9f9580f1d5f92d53c6c/images/fasterUI-componentPage.png) <br /><br /><br /><br />
  
