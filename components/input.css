@@ -88,31 +88,31 @@
 
 .input-field-iframe{
     width: 100%; 
-    height: 261px; 
+    height: 16.3rem; 
     border:0; 
     transform: scale(1); 
     overflow:hidden;
 }
 
 .input-with-error-iframe{
-    width: 622px; 
-    height: 261px; 
+    width: 38.8rem; 
+    height: 16.3rem; 
     border:0; 
     transform: scale(1); 
     overflow:hidden;
 }
 
 .radio-input-iframe{
-    width: 782px; 
-    height: 298px; 
+    width: 48.8rem; 
+    height: 18.6rem; 
     border:0; 
     transform: scale(1); 
     overflow:hidden;
 }
 
 .checkbox-input-iframe{
-    width: 782px; 
-    height: 298px; 
+    width: 48.8rem; 
+    height: 18.6rem; 
     border:0; 
     transform: scale(1); 
     overflow:hidden;
