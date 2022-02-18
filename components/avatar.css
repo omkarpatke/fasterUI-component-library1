@@ -79,16 +79,16 @@
 }
 
 .standard-avatar-iframe1{
-    width: 1024px; 
-    height: 372px; 
+    width: 64rem; 
+    height: 23.25rem; 
     border:0; 
     transform: scale(1); 
     overflow:hidden;
 }
 
 .standard-avatar-iframe2{
-    width: 563px; 
-    height: 241px; 
+    width: 35.2rem; 
+    height: 15rem; 
     border:0; 
     transform: scale(1); 
     overflow:hidden;
