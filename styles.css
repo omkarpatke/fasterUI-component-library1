@@ -134,7 +134,7 @@ html{
     grid-area: sideBar;
     display: flex;
     flex-direction: column;
-    gap: .6rem;
+    gap: .4rem;
     margin-top: 2rem;
     position: fixed;
     top: 4rem;
