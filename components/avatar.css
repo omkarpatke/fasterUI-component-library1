@@ -1,0 +1,105 @@
+:root{
+    --avatar-bg-color:#b3d2f5;
+}
+.avatars{
+    display: flex;
+    align-items: flex-end;
+    width: fit-content;
+    padding: 1rem 3rem;
+    gap: 2rem;
+}
+
+#avatar-container p span{
+    background-color: var(--avatar-bg-color);
+    border-radius: 5px;
+    padding: 2px;
+}
+/* standard-avatars */
+.avatar{
+    height: 6em;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border-radius: 50%;
+}
+
+.avatar-xl{
+    height: 4em;
+    width: 4em;
+}
+
+.avatar-lg{
+    height: 3em;
+    width: 3em;
+}
+
+.avatar-std{
+    height: 2em;
+    width: 2em;
+    
+}
+
+.avatar-sm{
+    height: 1.5em;
+    width: 1.5em;
+}
+
+.avatar-xs{
+    height: 1em;
+    width: 1em;
+}
+
+/* avatar-with-status */
+
+.status-presence{
+    position: relative;
+    font-size: 6rem;
+    bottom: 2px;
+    right: 1.3rem;
+}
+
+.status-avatar-paragraph{
+    margin-top: -2rem;
+}
+
+.avatar-status{
+    margin-bottom: -3rem;
+    z-index: 1;
+}
+
+.online{
+    color: #32b643;
+}
+
+.offline{
+    color: red;
+}
+
+.dnd{
+    color: gray;
+}
+
+.standard-avatar-iframe1{
+    width: 64rem; 
+    height: 23.25rem; 
+    border:0; 
+    transform: scale(1); 
+    overflow:hidden;
+}
+
+.standard-avatar-iframe2{
+    width: 35.2rem; 
+    height: 15rem; 
+    border:0; 
+    transform: scale(1); 
+    overflow:hidden;
+    margin-bottom: 1rem;
+}
+
+/* text-avatars */
+
+.text-avatar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
