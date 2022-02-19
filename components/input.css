@@ -1,0 +1,120 @@
+@import url('../styles.css');
+
+.inputs{
+    display:flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    align-items: center;
+    justify-content: center;
+    height: max-content;
+    padding: 1rem 4rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 1rem;
+    margin: 1rem 3rem;
+}
+
+.inputs .input-field{
+    width: 70%;
+    height: 2rem;
+    padding-left: 1rem;
+    border-radius: .3rem;
+}
+
+.input-with-error{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: max-content;
+    padding: 1rem 4rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 1rem;
+    margin: 1rem 3rem;
+}
+
+.input-with-error .err-input{
+    width: 70%;
+    height: 2rem;
+    padding-left: 1rem;
+    border-radius: .3rem;
+    border: 1px solid var(--danger-color);
+}
+
+.input-with-error .err-msg{
+    color: var(--danger-color);
+    margin-right: 20rem;
+    font-size: 13px;
+}
+
+.radio-inputs{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    height: max-content;
+    padding: 1rem 4rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 1rem;
+    margin: 1rem 3rem;
+}
+
+.radio-inputs .radio-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.checkbox-inputs{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    height: max-content;
+    padding: 1rem 4rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 1rem;
+    margin: 1rem 3rem;
+}
+
+.checkbox-inputs .checkbox-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.input-field-iframe{
+    width: 100%; 
+    height: 16.3rem; 
+    border:0; 
+    transform: scale(1); 
+    overflow:hidden;
+}
+
+.input-with-error-iframe{
+    width: 38.8rem; 
+    height: 16.3rem; 
+    border:0; 
+    transform: scale(1); 
+    overflow:hidden;
+}
+
+.radio-input-iframe{
+    width: 48.8rem; 
+    height: 18.6rem; 
+    border:0; 
+    transform: scale(1); 
+    overflow:hidden;
+}
+
+.checkbox-input-iframe{
+    width: 48.8rem; 
+    height: 18.6rem; 
+    border:0; 
+    transform: scale(1); 
+    overflow:hidden;
+}
+
