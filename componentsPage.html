@@ -34,6 +34,7 @@
             <a href="#navigation-container">Navigation</a>
             <a href="#modal-container">Modal</a>
             <a href="#simplified-grid-container">Simplified Grid</a>
+            <a href="#rating-container">Ratings</a>
         </div>
 
         <div class="components">
@@ -774,33 +775,32 @@
                 src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid-template-area-property%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522header%2522%253EHeader%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522left-sidebar%2522%253ELeft%2520Sidebar%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522main-content%2522%253EMain%2520Content%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522right-sidebar%2522%253Eright%2520Sidebar%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522footer%2522%253EFooter%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
                 sandbox="allow-scripts allow-same-origin">
                 </iframe>
-               </section>  
+               </section>
+               
+               <!-- rating section -->
+
+               <section class="section" id="rating-container">
+                    <h2>Ratings</h2>
+                       <div class="rating-card">
+                           <div class="rating-heading">How Was Your Experience?</div>
+                           <div class="rating-stars-container">
+                               <div class="star">&#9734</div>
+                               <div class="star">&#9734</div>
+                               <div class="star">&#9734</div>
+                               <div class="star">&#9734</div>
+                               <div class="star">&#9734</div>
+                           </div>
+                           <div class="current-rating"> 0 out of 5</div>
+                       </div>
+                       <iframe class="rating-iframe"
+                       src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=none&l=auto&width=776.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522rating-card%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522rating-heading%2522%253EHow%2520Was%2520Your%2520Experience%253F%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522rating-stars-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522star%2522%253E%2526%25239734%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522star%2522%253E%2526%25239734%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522star%2522%253E%2526%25239734%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522star%2522%253E%2526%25239734%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522star%2522%253E%2526%25239734%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522current-rating%2522%253E%25200%2520out%2520of%25205%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                       sandbox="allow-scripts allow-same-origin">
+                       </iframe>
+               </section>
 
         </div>   
     </div> 
-    <script>
-        // Modal Component
-        const modal = document.querySelector('.modal')
-        const closeBtn = document.querySelector('.close-btn')
-        const showBtn = document.querySelector('.show-btn')
-        const modalContent = document.querySelector('.modal-content');
-        const modalBtns = document.querySelectorAll('.modal-btns');
-        showBtn.addEventListener('click', () => {
-            modal.style.display='block';
-            modalContent.style.display = 'block';
-        })
 
-        closeBtn.addEventListener('click' , () => {
-            modal.style.display='none';
-            modalContent.style.display = 'none';
-        })
-
-        modalBtns.forEach((btn) => {
-            btn.addEventListener('click' , () => {
-                modal.style.display='none';
-                modalContent.style.display = 'none';
-            })
-        })
-    </script>
+    <script src="./components/components.js"></script>
 </body>
 </html>
