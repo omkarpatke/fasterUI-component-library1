@@ -35,6 +35,7 @@
             <a href="#modal-container">Modal</a>
             <a href="#simplified-grid-container">Simplified Grid</a>
             <a href="#rating-container">Ratings</a>
+            <a href="#range-slider-container">Range Slider</a>
         </div>
 
         <div class="components">
@@ -796,6 +797,42 @@
                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=none&l=auto&width=776.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522rating-card%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522rating-heading%2522%253EHow%2520Was%2520Your%2520Experience%253F%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522rating-stars-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522star%2522%253E%2526%25239734%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522star%2522%253E%2526%25239734%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522star%2522%253E%2526%25239734%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522star%2522%253E%2526%25239734%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522star%2522%253E%2526%25239734%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522current-rating%2522%253E%25200%2520out%2520of%25205%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
                        sandbox="allow-scripts allow-same-origin">
                        </iframe>
+               </section>
+
+               <!-- range slider -->
+
+               <section class="section" id="range-slider-container">
+                   <h2>Range Slider</h2>
+                <div class="range-slider">
+                    <h2>Price Range</h2>
+                    <div class="price-input">
+                        <div class="field">
+                            <span>Min</span>
+                            <input type="number" class="input-min" value="2500">
+                        </div>
+                        <div class="separator">-</div>
+                        <div class="field">
+                         <span>Max</span>
+                         <input type="number" class="input-max" value="20000">
+                        </div>
+                     </div>
+     
+                     <div class="slider">
+                         <div class="progress">
+     
+                         </div>
+                     </div>
+                     <div class="range-input">
+                         <input type="range" class="range-min" min="0" max="20000" value="2500" step="100">
+                         <input type="range" class="range-max" min="0" max="20000" value="20000" step="100">
+                     </div>
+                </div>
+
+
+                <iframe class="range-slider-iframe"
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=none&l=auto&width=776.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522range-slider%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch2%253EPrice%2520Range%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522price-input%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522field%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253EMin%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522number%2522%2520class%253D%2522input-min%2522%2520value%253D%25222500%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522separator%2522%253E-%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522field%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253EMax%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522number%2522%2520class%253D%2522input-max%2522%2520value%253D%252220000%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522slider%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522progress%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522range-input%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522range%2522%2520class%253D%2522range-min%2522%2520min%253D%25220%2522%2520max%253D%252220000%2522%2520value%253D%25222500%2522%2520step%253D%2522100%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522range%2522%2520class%253D%2522range-max%2522%2520min%253D%25220%2522%2520max%253D%252220000%2522%2520value%253D%252220000%2522%2520step%253D%2522100%2522%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                sandbox="allow-scripts allow-same-origin">
+                </iframe>
                </section>
 
         </div>   
