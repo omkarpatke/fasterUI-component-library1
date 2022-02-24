@@ -115,3 +115,15 @@ input[type='range']::-moz-range-thumb{
     transform: scale(1); 
     overflow:hidden;
 }
+
+@media screen and (max-width:480px) {
+    .range-slider{
+        margin: 1rem 1rem;
+        width: 26rem;
+        padding: 1rem 1rem;
+    }
+
+    .range-slider-iframe{
+        margin-bottom: 2rem;
+    }
+}

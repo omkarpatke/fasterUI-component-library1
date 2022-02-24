@@ -178,3 +178,15 @@
     transform: scale(1); 
     overflow:hidden;
 }
+
+@media screen and (max-width:480px) {
+    .card{
+        margin: 2rem auto;
+     }
+
+     .horizontal-card{
+      padding: 5px 0;
+      margin: 2rem 0;
+    }
+    
+}

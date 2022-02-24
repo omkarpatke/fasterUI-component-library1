@@ -52,3 +52,11 @@
     transform: scale(1); 
     overflow:scroll;
 }
+
+@media screen and (max-width:480px) {
+    .navigation-navbar-container{
+        margin: 1rem 1rem;
+        width: 26rem;
+        padding: 1rem 0;
+    }
+}

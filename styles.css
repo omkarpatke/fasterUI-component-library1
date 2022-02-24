@@ -74,11 +74,8 @@ html{
     justify-content: space-around;
     align-items: center;
     flex-direction: row-reverse;
-
-    gap: 6.4rem;
     gap: 6.2rem;
-
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .home-page img{
@@ -211,4 +208,65 @@ h1{
     background-color: var(--span-bg-color);
     border-radius: 5px;
     padding: 0.1rem;
+}
+
+@media screen and (max-width:1024px) {
+    .nav .logo{
+        margin-left: 2rem;
+    }
+
+
+    .components-container{
+        padding: 0rem 2rem;
+        gap: 11rem;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .nav .logo{
+        margin-left: 2rem;
+    }
+    
+    .home-page{
+        flex-direction: column;
+        gap: 0;
+        margin: 2rem 0;
+    }
+    
+    .home-page img{
+        height: 20rem;
+    }
+
+    .sideBar{
+        display: none;
+    }
+
+    .components-container{
+        padding: 0rem 2rem;
+        gap: 0;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .nav .logo{
+        margin-left: 1rem;
+    }
+
+    .home-page{
+        gap: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    .home-page img{
+        height: 15rem;
+        margin-top: 5rem;
+    }
+
+    .components-container{
+        padding: 0rem 1rem;
+    }
+
+    .section p{
+        margin: 1rem 0;
+    }
 }

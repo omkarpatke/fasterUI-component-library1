@@ -113,4 +113,18 @@
     overflow:hidden;
 }
 
+@media screen and (max-width:480px) {
+    .grids-container{
+        margin: 1rem 1rem;
+        width: 26rem;
+        padding: 1rem 0;
+    }
+
+    .grid-template-area-property{
+        margin: 1rem 1rem;
+        width: 26rem;
+        padding: 1rem 0;
+    }
+}
+
 
