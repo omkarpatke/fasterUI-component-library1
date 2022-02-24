@@ -210,6 +210,22 @@ h1{
     padding: 0.1rem;
 }
 
+.mobile-icon{
+    margin-left: 1.5rem;
+    color: var(--white-color);
+    font-size: 2rem;
+}
+
+.closeIcon{
+    margin-left: 1.5rem;
+    color: var(--white-color);
+    display: none;
+    font-size: 2rem;
+}
+
+.mobile-icon- i{
+    font-size: 2rem;
+}
 @media screen and (max-width:1024px) {
     .nav .logo{
         margin-left: 2rem;
@@ -250,6 +266,33 @@ h1{
 @media screen and (max-width:480px) {
     .nav .logo{
         margin-left: 1rem;
+    }
+
+    .sideBar{
+        display: flex;
+        background-color: red;
+        z-index: 999;
+        position: fixed;
+        top: 3rem;
+        left: 0;
+        width: 50%;
+        padding: 5px 0 0 1rem;
+        color: var(--white-color);
+        background-color: var(--primary-color);
+        gap: 4px;
+        transition: .6s all ease;
+    }
+
+    .sideBar a {
+        color: var(--white-color);
+    }
+
+    .sideBar a:last-child{
+        margin-bottom: 10px;
+    }
+
+    .sideBar div{
+        color: var(--white-color);
     }
 
     .home-page{
