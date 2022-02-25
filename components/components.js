@@ -88,6 +88,20 @@ rangeInput.forEach(input => {
     })
 })
 
+// toast
+const toastCloseBtn = document.querySelector('.toast-close-btn');
+const toastContent = document.querySelector('.toast-content');
+const toastBtn = document.querySelector('.toast-btn');
+toastContent.style.right = '-100%';
+toastCloseBtn.addEventListener('click',() => {
+   toastContent.style.right = '-100%';
+})
+
+toastBtn.addEventListener('click',() => {
+    toastContent.style.right = '1rem';
+ })
+
+
 
 // reponsiveness
 

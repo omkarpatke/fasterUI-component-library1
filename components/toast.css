@@ -1,0 +1,49 @@
+@import url('../styles.css');
+
+:root{
+    --toast-layer:10;
+}
+
+.toast-close-btn{
+    position: absolute;
+    right: 1rem;
+    cursor: pointer;
+    padding: 3px;
+    font-size: 1.5rem;
+    transition: .3s all ease-in-out;
+}
+
+.toast-close-btn:hover{
+    transform: scale(1.4);
+}
+
+.toast-content{
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+    z-index: var(--toast-layer);
+    transition: .7s all ease-in-out;
+}
+
+.toast-btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 10px 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    height: 10rem;
+}
+
+.toast-iframe{
+    width: 46.063rem; 
+    height: 16.313rem; 
+    border:0; 
+    transform: scale(1); 
+    overflow:hidden;
+}
+
+@media screen and (max-width:480px) {
+    .toast-content{
+        right: 1rem;
+    }
+}

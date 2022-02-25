@@ -40,6 +40,7 @@
             <a href="#simplified-grid-container">Simplified Grid</a>
             <a href="#rating-container">Ratings</a>
             <a href="#range-slider-container">Range Slider</a>
+            <a href="#toast-container">Toast</a>
         </div>
 
         <div class="components">
@@ -783,6 +784,7 @@
 
                <section class="section" id="rating-container">
                     <h2>Ratings</h2>
+                    <p>Rating components can be used as read-only badge or in reviews section. Can be used in reviews section as form too.</p>
                        <div class="rating-card">
                            <div class="rating-heading">How Was Your Experience?</div>
                            <div class="rating-stars-container">
@@ -803,7 +805,8 @@
                <!-- range slider -->
 
                <section class="section" id="range-slider-container">
-                   <h2>Range Slider</h2>
+                <h2>Range Slider</h2>
+                <p>This component can be used by users to make selections from a range of values.</p>
                 <div class="range-slider">
                     <h2>Price Range</h2>
                     <div class="price-input">
@@ -834,6 +837,22 @@
                 src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=none&l=auto&width=776.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522range-slider%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch2%253EPrice%2520Range%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522price-input%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522field%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253EMin%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522number%2522%2520class%253D%2522input-min%2522%2520value%253D%25222500%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522separator%2522%253E-%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522field%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253EMax%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522number%2522%2520class%253D%2522input-max%2522%2520value%253D%252220000%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522slider%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522progress%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522range-input%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522range%2522%2520class%253D%2522range-min%2522%2520min%253D%25220%2522%2520max%253D%252220000%2522%2520value%253D%25222500%2522%2520step%253D%2522100%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522range%2522%2520class%253D%2522range-max%2522%2520min%253D%25220%2522%2520max%253D%252220000%2522%2520value%253D%252220000%2522%2520step%253D%2522100%2522%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
                 sandbox="allow-scripts allow-same-origin">
                 </iframe>
+               </section>
+
+               <section class="section" id="toast-container">
+                   <h2>Toast</h2>
+                   <p>This component can be used for toast or snackbar component. Toast is mostly used to show feedback message. Snackbar is to used show message that need user action</p>
+                   <div class="toast-content">
+                    <div class="alert success-alert">You Are Successfully Logout.<span class="toast-close-btn"> X </span></div>
+                   </div>
+
+                   <div class="toast-btn-container">
+                       <button class="btn primary-btn toast-btn">Show Toast</button>
+                   </div>
+                   <iframe class="iframe toast-iframe"
+                   src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=none&l=auto&width=853.75&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522toast-content%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520success-alert%2522%253EYou%2520Are%2520Successfully%2520Logout.%253Cspan%2520class%253D%2522toast-close-btn%2522%253E%2520X%2520%253C%252Fspan%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                   sandbox="allow-scripts allow-same-origin">
+                   </iframe>
                </section>
 
         </div>   
