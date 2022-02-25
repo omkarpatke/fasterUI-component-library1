@@ -13,3 +13,21 @@
 @import url('./simplifiedGrid.css');
 @import url('./rating.css');
 @import url('./range-slider.css');
+
+@media screen and (max-width:1024px) {
+    .iframe{
+        width: 750px;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .iframe{
+        width: 550px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .iframe{
+        width: 375px;
+    }
+}

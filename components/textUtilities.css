@@ -60,3 +60,20 @@
     transform: scale(1); 
     overflow:hidden;
 }
+
+@media screen and (max-width:480px) {
+    .headings-container{
+        margin: 1rem 0rem;
+        width: 22rem;
+    }
+
+    .content-container{
+        margin: 1rem 0rem;
+        width: 22rem;
+    }
+
+    .pragraph-container{
+        margin: 1rem 0rem;
+        width: 22rem;
+    }
+}

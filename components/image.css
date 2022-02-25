@@ -35,3 +35,38 @@
     transform: scale(1); 
     overflow:hidden;
 }
+
+@media screen and (max-width:640px) {
+    .image-responsive img {
+        height: 90%;
+        width: 75%;
+    }
+
+    .image-circular img {
+        height: 27rem;
+        width: 27rem;
+    }
+
+}
+
+@media screen and (max-width:480px) {
+    .image-responsive{
+        padding: 0;
+    }
+    
+    .image-responsive img{
+        height: 90%;
+        width: 80%;
+    }
+    
+    .image-circular{
+        padding: 0;
+    }
+    
+    .image-circular img{
+        border-radius: 50%;
+        height: 20rem;
+        width: 20rem;
+        object-fit: fill;
+    }
+}

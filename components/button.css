@@ -9,7 +9,7 @@
     margin-top: 1rem;
     margin-left: 3rem;
     margin-bottom: 2rem;
-    width: 50%;
+    width: 80%;
     justify-content: center;
     align-items: center;
     height: 10rem;
@@ -179,4 +179,11 @@
     border:0; 
     transform: scale(1); 
     overflow:hidden;
+}
+
+@media screen and (max-width:480px) {
+    .btns{
+        width: 80%;
+        margin: 1rem auto;
+    }
 }

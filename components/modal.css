@@ -76,3 +76,11 @@
     overflow:hidden;
     margin: 1rem 0;
 }
+
+@media screen and (max-width:480px) {
+    .modals-container{
+        margin: 1rem 0rem;
+    width: 22rem;
+        padding: 1rem 0;
+    }
+}
