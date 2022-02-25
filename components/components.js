@@ -98,7 +98,7 @@ toastCloseBtn.addEventListener('click',() => {
 })
 
 toastBtn.addEventListener('click',() => {
-    toastContent.style.right = '2rem';
+    toastContent.style.right = '1rem';
  })
 
 
