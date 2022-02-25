@@ -117,5 +117,4 @@ sideBar.addEventListener('click' , () => {
     mobileIcon.style.display='block';
     closeIcon.style.display='none';
     sideBar.style.left='-100%';
-
 })

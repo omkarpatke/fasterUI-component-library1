@@ -118,8 +118,8 @@ input[type='range']::-moz-range-thumb{
 
 @media screen and (max-width:480px) {
     .range-slider{
-        margin: 1rem 1rem;
-        width: 26rem;
+        margin: 1rem 0rem;
+        width: 22rem;
         padding: 1rem 1rem;
     }
 

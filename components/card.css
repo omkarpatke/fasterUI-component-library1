@@ -181,12 +181,18 @@
 
 @media screen and (max-width:480px) {
     .card{
-        margin: 2rem auto;
+        margin: 1rem auto;
      }
 
      .horizontal-card{
       padding: 5px 0;
       margin: 2rem 0;
+    }
+
+    .horizontal-card img {
+        height: 8.7rem;
+        width: 10.7rem;
+        margin-top: 4rem;
     }
     
 }

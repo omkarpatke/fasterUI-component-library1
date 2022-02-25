@@ -265,7 +265,7 @@ h1{
 
 @media screen and (max-width:480px) {
     .nav .logo{
-        margin-left: 1rem;
+        margin-left: 12px;
     }
 
     .sideBar{
@@ -279,9 +279,10 @@ h1{
         padding: 5px 0 0 1rem;
         color: var(--white-color);
         background-color: var(--primary-color);
-        gap: 4px;
+        gap: 8px;
         transition: .6s all ease;
         height: 100vh;
+        overflow: scroll;
     }
 
     .sideBar a {
@@ -302,8 +303,16 @@ h1{
     }
 
     .home-page img{
-        height: 15rem;
+        height: 13rem;
         margin-top: 5rem;
+    }
+
+    .content h2{
+        font-size: 2.5rem;
+    }
+
+    .content a{
+        font-size: 1.2rem;
     }
 
     .components-container{

@@ -55,8 +55,12 @@
 
 @media screen and (max-width:480px) {
     .navigation-navbar-container{
-        margin: 1rem 1rem;
-        width: 26rem;
+        margin: 1rem 0rem;
+        width: 23rem;
         padding: 1rem 0;
+    }
+
+    .navigation-links{
+        gap: 0 10px;
     }
 }

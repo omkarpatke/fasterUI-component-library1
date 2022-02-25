@@ -74,7 +74,7 @@
 
 @media screen and (max-width:480px) {
     .list-container{
-        margin: 1rem 1rem;
-        width: 26rem;
+        margin: 1rem 0rem;
+        width: 22rem;
     }
 }
