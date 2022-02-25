@@ -99,6 +99,11 @@ mobileIcon.style.display='none';
 if(screen.width <= 480){
     sideBar.style.left='-100%';
     mobileIcon.style.display='block';
+    sideBar.addEventListener('click' , () => {
+        mobileIcon.style.display='block';
+        closeIcon.style.display='none';
+        sideBar.style.left='-100%';
+    })
 }
 
 mobileIcon.addEventListener('click' , () => {
@@ -111,10 +116,4 @@ closeIcon.addEventListener('click' , () => {
      sideBar.style.left='-100%';
      mobileIcon.style.display='block';
      closeIcon.style.display='none';
-})
-
-sideBar.addEventListener('click' , () => {
-    mobileIcon.style.display='block';
-    closeIcon.style.display='none';
-    sideBar.style.left='-100%';
 })
