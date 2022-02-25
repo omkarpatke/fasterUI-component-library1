@@ -25,6 +25,7 @@
     --hover-color : #b3d2f5;
     --label-color: #E67A00;
     --outline-color : #00b594;
+    --gray-color:rgb(187, 187, 187);
 }
 
 html{
@@ -131,7 +132,7 @@ html{
     grid-area: sideBar;
     display: flex;
     flex-direction: column;
-    gap: 9px;
+    gap: 6px;
     margin-top: 1rem;
     position: fixed;
     top: 4rem;

@@ -13,6 +13,7 @@
 @import url('./simplifiedGrid.css');
 @import url('./rating.css');
 @import url('./range-slider.css');
+@import url('./toast.css');
 
 @media screen and (max-width:1024px) {
     .iframe{
