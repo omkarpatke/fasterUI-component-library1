@@ -96,7 +96,7 @@ const sideBar = document.querySelector('.sideBar');
 const closeIcon = document.querySelector('.closeIcon');
 mobileIcon.style.display='none';
 
-if(screen.width < 480){
+if(screen.width <= 480){
     sideBar.style.left='-100%';
     mobileIcon.style.display='block';
     sideBar.addEventListener('click' , () => {
@@ -106,7 +106,7 @@ if(screen.width < 480){
     })
 } 
 
-if(screen.width < 640){
+if(screen.width <= 640){
     sideBar.style.left='-100%';
     mobileIcon.style.display='block';
     sideBar.addEventListener('click' , () => {
