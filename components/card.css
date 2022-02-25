@@ -179,6 +179,12 @@
     overflow:hidden;
 }
 
+@media screen and (max-width:640px) {
+    .card{
+        margin: 1rem auto;
+     }
+}
+
 @media screen and (max-width:480px) {
     .card{
         margin: 1rem auto;

@@ -36,6 +36,19 @@
     overflow:hidden;
 }
 
+@media screen and (max-width:640px) {
+    .image-responsive img {
+        height: 90%;
+        width: 75%;
+    }
+
+    .image-circular img {
+        height: 27rem;
+        width: 27rem;
+    }
+
+}
+
 @media screen and (max-width:480px) {
     .image-responsive{
         padding: 0;

@@ -15,12 +15,15 @@
 @import url('./range-slider.css');
 
 @media screen and (max-width:1024px) {
-    
+    .iframe{
+        width: 750px;
+    }
 }
 
 @media screen and (max-width:640px) {
-    
-    
+    .iframe{
+        width: 550px;
+    }
 }
 
 @media screen and (max-width:480px) {

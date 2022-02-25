@@ -96,13 +96,23 @@ const sideBar = document.querySelector('.sideBar');
 const closeIcon = document.querySelector('.closeIcon');
 mobileIcon.style.display='none';
 
-if(screen.width <= 480){
+if(screen.width < 480){
     sideBar.style.left='-100%';
     mobileIcon.style.display='block';
     sideBar.addEventListener('click' , () => {
         mobileIcon.style.display='block';
         closeIcon.style.display='none';
         sideBar.style.left='-100%';
+    })
+} 
+
+if(screen.width < 640){
+    sideBar.style.left='-100%';
+    mobileIcon.style.display='block';
+    sideBar.addEventListener('click' , () => {
+        closeIcon.style.display='none';
+        sideBar.style.left='-100%';
+        mobileIcon.style.display='block';
     })
 }
 

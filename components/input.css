@@ -118,6 +118,32 @@
     overflow:hidden;
 }
 
+@media screen and (max-width:640px) {
+    .inputs{
+        margin: 1rem 1rem;
+        width: 30rem;
+    }
+
+    .input-with-error{
+        margin: 1rem 1rem;
+        width: 30rem;
+    }
+
+    .radio-inputs{
+        margin: 1rem 1rem;
+        width: 30rem;
+    }
+
+    .checkbox-inputs{
+        margin: 1rem 1rem;
+        width: 30rem;
+    }
+
+    .input-with-error .err-msg {
+        margin-right: 0rem;
+    }
+}
+
 @media screen and (max-width:480px) {
     .inputs{
         margin: 1rem 1rem;

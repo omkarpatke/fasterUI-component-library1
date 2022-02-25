@@ -254,7 +254,32 @@ h1{
     }
 
     .sideBar{
-        display: none;
+        display: flex;
+        background-color: red;
+        z-index: 999;
+        position: fixed;
+        top: 3rem;
+        left: 0;
+        width: 50%;
+        padding: 5px 0 0 1rem;
+        color: var(--white-color);
+        background-color: var(--primary-color);
+        gap: 8px;
+        transition: .6s all ease;
+        height: 100vh;
+        overflow: scroll;
+    }
+
+    .sideBar a {
+        color: var(--white-color);
+    }
+
+    .sideBar a:last-child{
+        margin-bottom: 10px;
+    }
+
+    .sideBar div{
+        color: var(--white-color);
     }
 
     .components-container{
