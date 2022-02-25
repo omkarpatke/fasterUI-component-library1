@@ -184,5 +184,6 @@
 @media screen and (max-width:480px) {
     .btns{
         width: 80%;
+        margin: 1rem auto;
     }
 }

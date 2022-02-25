@@ -194,5 +194,9 @@
         width: 10.7rem;
         margin-top: 4rem;
     }
+
+    .card p {
+        margin: 0;
+    }
     
 }

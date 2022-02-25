@@ -138,5 +138,9 @@
         margin: 1rem 1rem;
         width: 20rem;
     }
+
+    .input-with-error .err-msg {
+        margin-right: 0rem;
+    }
 }
 
