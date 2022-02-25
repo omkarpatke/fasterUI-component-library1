@@ -1,4 +1,5 @@
 @import url('../styles.css');
+
 .toast-close-btn{
     position: absolute;
     right: 1rem;
@@ -30,9 +31,15 @@
 }
 
 .toast-iframe{
-    width: 737px; 
-    height: 261px; 
+    width: 46.063rem; 
+    height: 16.313rem; 
     border:0; 
     transform: scale(1); 
     overflow:hidden;
+}
+
+@media screen and (max-width:480px) {
+    .toast-content{
+        right: 1rem;
+    }
 }
