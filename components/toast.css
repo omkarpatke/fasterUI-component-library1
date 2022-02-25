@@ -1,5 +1,9 @@
 @import url('../styles.css');
 
+:root{
+    --toast-layer:10;
+}
+
 .toast-close-btn{
     position: absolute;
     right: 1rem;
@@ -17,7 +21,7 @@
     position: fixed;
     top: 2rem;
     right: 2rem;
-    z-index: 10;
+    z-index: var(--toast-layer);
     transition: .7s all ease-in-out;
 }
 
